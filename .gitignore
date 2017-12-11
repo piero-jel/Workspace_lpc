@@ -1,0 +1,145 @@
+## -- Descartamos las carpetas doc
+doc/
+## -- Descartamos la carpeta example
+examples/
+## -- descartamos la carpeta projects_asm
+projects_asm/
+## -- descartamos la carpeta template
+template/
+## -- descartanis los archivos con extension *.tar
+*.tar
+## -- descartanis los archivos con extension *.launch
+*.launch
+##
+### -- descartamos los archivos /directorios Generados por el Interfaces del compilador/debbug
+## 
+.cproject
+.project
+core
+.settings/
+##
+### -- descartamos lo proiyectos que no deseamos subir
+##
+projects/LedStatusOk/
+projects/LedStOk_freertos/
+projects/project_02/
+projects/TestSemaforo_01/
+projects/WebServerDianmic/
+projects/WebserverRTOS/
+projects/WebserverRTOS_01/
+projects/WebserverRTOS_02/
+##
+## descartasmo el archivo que utilizamos para listar los header files
+##
+##
+## Descartamos los Heder files que no son necesarios, para la compilacion del proyecto
+##
+libs/lpc1769/inc/AdcRtos.h
+cmsis_175x_6x.h
+cmsis.h
+core_cm3.h
+core_cmFunc.h
+core_cmInstr.h
+croutine.h
+# crp.h
+debug_frmwrk.h
+driverEepromI2C.h
+EepromI2C.h
+EmacRtos.h
+# FreeRTOSCommonHooks.h
+# FreeRTOS.h
+InputDigitRtos.h
+Keypad4x4.h
+lcdWH1602C.h
+LcdWH1602.h
+# LedStatus.h
+LedStOk.h
+list
+list.h
+lpc17xx_adc.h
+lpc17xx_can.h
+lpc17xx_clkpwr.h
+lpc17xx_dac.h
+lpc17xx_emac.h
+lpc17xx_exti.h
+lpc17xx_gpdma.h
+lpc17xx_gpio.h
+LPC17xx.h
+lpc17xx_i2c.h
+lpc17xx_i2s.h
+lpc17xx_iap.h
+lpc17xx_libcfg_default.h
+lpc17xx_mcpwm.h
+lpc17xx_nvic.h
+lpc17xx_pinsel.h
+lpc17xx_pwm.h
+lpc17xx_qei.h
+lpc17xx_rit.h
+lpc17xx_rtc.h
+lpc17xx_spi.h
+lpc17xx_ssp.h
+lpc17xx_systick.h
+lpc17xx_timer.h
+lpc17xx_uart.h
+lpc17xx_wdt.h
+lpc_types.h
+mpu_wrappers.h
+OperandoBit.h
+portable.h
+portENET.h
+portGPIO.h
+port.h
+portmacro.h
+portPIN.h
+portPWM.h
+portRTOS.h
+portSYSinit.h
+portTIMER.h
+portUART.h
+projdefs.h
+# queue.h
+semihostCommand.h
+# semphr.h
+# StackMacros.h
+SwitchRtos.h
+SystemCom.h
+system_LPC17xx.h
+SysTickTimer.h
+# task.h
+timers.h
+WatchDogTimer.h
+
+
+##
+##
+## Descartamos los linker script 
+##
+lpc11u68.ld
+lpc11u68_lib.ld
+lpc11u68_mem.ld
+# lpc1769.ld
+# lpc1769_lib.ld
+# lpc1769_mem.ld
+lpc4337_m0.ld
+lpc4337_m0_lib.ld
+lpc4337_m0_mem.ld
+lpc4337_m4.ld
+lpc4337_m4_lib.ld
+lpc4337_m4_mem.ld
+lpc4337_m4_RAM.ld
+lpc54102_m0.ld
+lpc54102_m0_lib.ld
+lpc54102_m0_mem.ld
+lpc54102_m4.ld
+lpc54102_m4_lib.ld
+lpc54102_m4_mem.ld
+##
+##
+## Descartamos los mk de configuracion del Dispositivo
+##
+lpc11u68.mk
+# lpc1769.mk
+lpc4337_m0.mk
+lpc4337_m4.mk
+lpc54102_m0.mk
+lpc54102_m4.mk
